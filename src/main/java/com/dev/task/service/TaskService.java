@@ -29,6 +29,6 @@ public class TaskService {
 
     public String setCompleted(Long id) {
         taskRepository.setCompleted(id);
-        return "Task Completed";
+        return "Task Completed set true";
     }
 }
